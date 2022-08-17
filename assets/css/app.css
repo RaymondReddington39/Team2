@@ -7,6 +7,9 @@ nav {
     display: flex;
     flex-direction: row;
     width: 100%;
+    background: rgba(80,80,80,0.5);
+    padding: 10px;
+
 
 }
 
@@ -18,10 +21,14 @@ ul {
 
 .left-menu {
     float: left;
+    width: 100%;
+    
 }
 
 .right-menu {
     float: right;
+    padding-right: 15px;
+    
 }
 
 body {
@@ -30,11 +37,36 @@ body {
     font-family: roboto;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 .header {
 
     font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     width: 100%;
-    height: 60px;
+    height: 120px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+a {
+
+    text-decoration: none;
+}
+
+nav>ul {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+nav>ul>li{
+    
+       padding-left: 10px;
+       padding-right: 10px;
+
 }
